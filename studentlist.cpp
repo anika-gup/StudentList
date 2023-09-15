@@ -5,7 +5,7 @@
 
 using namespace std;
 
-
+// student list --stores name, ID, and GPA of students as structs. Anika Gupta, 9/15/23
 // credit https://www.educative.io/answers/how-to-iterate-through-a-vector-in-cpp for iterator
 
 
@@ -110,6 +110,5 @@ void DELETE(vector<Student*> &studentList, int id) {
       cout << "Couldn't find anyone with that ID!" << endl;
     }
   }
-  // IS NOT FULLY DELETING (WHEN PRINTING THERE IS EXTRA VALS)
   //cout << "Couldn't find anyone with that ID" << endl;
 }
